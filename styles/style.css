@@ -140,6 +140,9 @@
 }
 
 .content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   font-size: var(--font-size);
   color: var(--text-color);
 }
